@@ -1,0 +1,152 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+*{margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-image: url(./Images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem;
+  width: 100vw;
+}
+
+.summary{
+  border-radius: 1rem;
+  background-color: rgb(245, 242, 242);
+  justify-content: center;
+  align-items: center;
+}
+.hero{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 100%;
+}
+
+h1{
+  margin: 1rem 0;
+  font-size: 20px;
+  ;
+}
+p{
+  font-size: 1rem;
+  width: 80%;
+  line-height: 1.5rem;
+  color: hsl(224, 23%, 55%); 
+  margin-bottom: 1rem;
+  font-weight: 40px;
+  
+}
+.plan{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 1rem;
+}
+.plan > a{
+  font-size: 12px;
+}
+h3{
+  font-size: 12px;
+}
+.btn{
+  margin: 2rem 0;
+  padding: 10px 40px;
+  width: 80%;
+  border-radius: 1rem;
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  
+
+}
+.btn:hover{
+  background-color: rgba(45, 45, 97, 0.864);
+  transition: .5s;
+}
+.card > a{
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  margin: 20px 0;
+}
+.card > a:hover{
+  text-decoration: underline;
+  transition: .8s;
+}
+
+@media only screen and (min-width: 768px) {
+  .app{
+    background-image: url(./Images/pattern-background-desktop.svg);
+    width: 100vw;
+  }
+  .summary{
+    width: 40vw;
+    height: 90vh;
+  }
+  p{
+    width: 70%;
+  }
+  .btn, .plan{
+    width: 80%;
+  }
+ .card > a{
+  padding: 1rem;
+ }
+ h3{
+  font-size: 20px;
+}
+.plan > a{
+  font-size: 20px;
+}
+  
+}
+

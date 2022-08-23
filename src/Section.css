@@ -1,0 +1,18 @@
+.inner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+}
+
+.btn{
+    background-color: rgb(45, 45, 147);
+    color: white;
+    padding: 20px;
+    width: 10rem;
+    font-size: 20px;
+    border-radius: 5px;
+}
